@@ -1,0 +1,52 @@
+# 323CB Maria-Alexandra Druga
+# maria.druga@stud.acs.upb.ro
+
+
+The project is designed to simulate a pokemon battle respecting OOP principles,
+using 5 design patterns, multithreading, creating variated tests and using the
+JUNIT framework.
+
+
+The main class contains the main function that executes, in order:
+
+- Choosing test file from STDIN (from 1 to 10)
+
+- Reading data from the JSON file. The data is read into a trainers
+**SINGLETON** database and into a pokemon database. The pokemons in the
+pokemon database are creating using the **BUILDER** design pattern.
+
+- Then the adventure is creating, choosing a random adventure from the three
+possible adventures and notifying the observers (using the **OBSERVER** 
+pattern). These observers check the "Subject" and execute their adventure
+if the subject corresponds to their function. (all observers are notified,
+only one will execute the function, based on the adventure chosen).
+
+- The "Logger" class prints the starting information containing the trainers,
+their pokemons, their stats and their items.
+
+- The **MOMENTO** pattern is invoked to keep a history of the logs for future
+app expansions.
+
+- Then the adventure is selected using a "Random" object.
+
+
+Adventure:
+
+- In the adventure, we choose an adventure (from 0 to 2) and notify the
+observers.
+
+- The observers 1 and 2 create a randomized_stats Neutrel pokemon with a
+randomized number of items (maximum 3) and with randomized items. For memory
+efficiency, the items are extracted using the **OBJECT POOL** pattern.
+
+- The observer 3 doesn`t create any randomized pokemon, but extracts the 3
+pokemons from each trainer and the best pokemon and makes them fight. The fight
+is happening on multiple threads, each fight with its` own thread.
+
+- In the end, the Logger.pokemonBattle function is called, starting the battle
+between the pokemons. Their stats are displayed, and, in turns, they are
+attacking each other with random attacks, dodging, stunning each other
+(based on their abilities), until one of the pokemons or both of them die.
+(reach HP <= 0)
+
+- The functionality of the functions is tested using the JUNIT framework.

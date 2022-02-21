@@ -1,0 +1,263 @@
+{
+  "Trainers": [
+    {
+      "name": "Josh",
+      "age": 20
+    },
+    {
+      "name": "Miguel",
+      "age": 25
+    }
+  ],
+  "Pokemons": [
+    {
+      "name": "Charmander",
+      "HP": 50,
+      "Normal Attack": 4,
+      "Special Attack": null,
+      "Def": 3,
+      "Special Def": 2,
+      "Ability 1": {
+        "Dmg": 4,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 4
+      },
+      "Ability 2": {
+        "Dmg": 7,
+        "Stun": "No",
+        "Dodge": "No",
+        "Cd": 6
+      },
+      "Items": [
+        {
+          "name": "Brad de Crăciun",
+          "attack": {
+            "normalAttack": 3,
+            "specialAttack": null
+          },
+          "hitPoints": 0,
+          "defense": null
+        },
+        {
+          "name": "Vestă",
+          "hitPoints": 10,
+          "attack": {
+            "normalAttack": 3,
+            "specialAttack": null
+          },
+          "defense": null
+        },
+        {
+          "name": "Pelerină",
+          "defense": {
+            "normalDefense": null,
+            "specialDefense": 3
+          },
+          "hitPoints": 0,
+          "attack": null
+        }
+      ]
+    },
+    {
+      "name": "Squirtle",
+      "HP": 60,
+      "Normal Attack": null,
+      "Special Attack": 3,
+      "Def": 5,
+      "Special Def": 5,
+      "Ability 1": {
+        "Dmg": 4,
+        "Stun": "No",
+        "Dodge": "No",
+        "Cd": 3
+      },
+      "Ability 2": {
+        "Dmg": 2,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 2
+      },
+      "Items": [
+        {
+          "name": "Vitamine",
+          "hitPoints": 2,
+          "attack": {
+            "normalAttack": 2,
+            "specialAttack": 2
+          },
+          "defense": null
+        },
+        {
+          "name": "Vestă",
+          "hitPoints": 10,
+          "attack": null,
+          "defense": null
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "HP": 62,
+      "Normal Attack": 3,
+      "Special Attack": null,
+      "Def": 6,
+      "Special Def": 4,
+      "Ability 1": {
+        "Dmg": 4,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 5
+      },
+      "Ability 2": {
+        "Dmg": 0,
+        "Stun": "No",
+        "Dodge": "Yes",
+        "Cd": 5
+      },
+      "Items": [
+        {
+          "name": "Scut",
+          "hitPoints": 0,
+          "attack": null,
+          "defense": {
+            "normalDefense": 2,
+            "specialDefense": 2
+          }
+        },
+        {
+          "name": "Baghetă Magică",
+          "attack": {
+            "normalAttack": null,
+            "specialAttack": 3
+          },
+          "hitPoints": 0,
+          "defense": null
+        }
+      ]
+    },
+    {
+      "name": "Vulpix",
+      "HP": 36,
+      "Normal Attack": 5,
+      "Special Attack": null,
+      "Def": 2,
+      "Special Def": 4,
+      "Ability 1": {
+        "Dmg": 8,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 6
+      },
+      "Ability 2": {
+        "Dmg": 2,
+        "Stun": "No",
+        "Dodge": "Yes",
+        "Cd": 7
+      },
+      "Items": [
+        {
+          "name": "Săbiuță",
+          "hitPoints": 0,
+          "attack": {
+            "normalAttack": 3,
+            "specialAttack": null
+          },
+          "defense": null
+        },
+        {
+          "name": "Vestă",
+          "hitPoints": 10,
+          "attack": null,
+          "defense": null
+        }
+      ]
+    },
+    {
+      "name": "Eeavee",
+      "HP": 39,
+      "Normal Attack": null,
+      "Special Attack": 4,
+      "Def": 3,
+      "Special Def": 3,
+      "Ability 1": {
+        "Dmg": 5,
+        "Stun": "No",
+        "Dodge": "No",
+        "Cd": 3
+      },
+      "Ability 2": {
+        "Dmg": 3,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 3
+      },
+      "Items": [
+        {
+          "name": "Scut",
+          "hitPoints": 0,
+          "attack": null,
+          "defense": {
+            "normalDefense": 2,
+            "specialDefense": 2
+          }
+        },
+        {
+          "name": "Pelerină",
+          "defense": {
+            "normalDefense": null,
+            "specialDefense": 3
+          },
+          "hitPoints": 0,
+          "attack": null
+        }
+      ]
+    },
+    {
+      "name": "Jigglypuff",
+      "HP": 34,
+      "Normal Attack": 4,
+      "Special Attack": null,
+      "Def": 2,
+      "Special Def": 3,
+      "Ability 1": {
+        "Dmg": 4,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 4
+      },
+      "Ability 2": {
+        "Dmg": 3,
+        "Stun": "Yes",
+        "Dodge": "No",
+        "Cd": 4
+      },
+      "Items" : [
+        {
+          "name": "Scut",
+          "hitPoints": 0,
+          "attack": null,
+          "defense": {
+            "normalDefense": 2,
+            "specialDefense": 2
+          }
+        },
+        {
+          "name": "Pelerină",
+          "defense": {
+            "normalDefense": null,
+            "specialDefense": 3
+          },
+          "hitPoints": 0,
+          "attack": null
+        },
+        {
+          "name": "Vestă",
+          "hitPoints": 10,
+          "attack": null,
+          "defense": null
+        }
+      ]
+    }
+  ]
+}
